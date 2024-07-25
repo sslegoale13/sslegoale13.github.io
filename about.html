@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Solomon Stokie Legoale - Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e30f5a5383.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- --------------------------------------------------------Header-------------------------------------------------------- -->
+
+<div id="header">
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        </ul>
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-contact" href="mailto:sslegoale0@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+            <li class="nav-item"><a class="nav-contact" href="https://www.linkedin.com/in/sslegoale0"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="nav-item"><a class="nav-contact" href="https://www.github.com/sslegoale0"><i class="fa-brands fa-github"></i></a></li>
+            <i id="nav-close" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+    </nav>
+</div>
+<i id="nav-open" class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+<!-- --------------------------------------------------------Home-------------------------------------------------------- -->
+
+<div id="about">
+    <div class="about-up">
+        <div class="about-left">
+            <img class="about-image" src="Sales Analysis.png" alt="">
+        </div>
+        <div class="about-right">
+            <p class="about-name">Solomon Stokie Legoale</p>
+            <p class="about-title">Data Analyst</p>
+            <a class="about-link" href="Curriculum Vitae.pdf">Curriculum Vitae</a>
+        </div>
+    </div>
+    <div class="about-down">
+        <div class="about-tab">
+            <p class="tab-link active-tab" onclick="opentab('biography')">Biography</p>
+            <p class="tab-link" onclick="opentab('education')">Education</p>
+            <p class="tab-link" onclick="opentab('experience')">Experience</p>
+        </div>
+            <div id="biography" class="tab-contents active-contents">
+                <p class="contents-text"></p>
+            </div>
+            <div id="education" class="tab-contents">
+                <p class="contents-text"></p>
+                <p class="contents-period">September 2009 - December 2011</p>
+                <p class="contents-title"><span>National Diploma in Statistics</span> - ENSEA, Abidjan</p>
+                <p class="contents-text"></p>
+                <p class="contents-period">September 2014 - October 2016</p>
+                <p class="contents-title"><span>Bachelor of Commerce Honours in Statistics</span> - ENSEA, Abidjan</p>
+                <p class="contents-text"></p>
+            </div>
+            <div id="experience" class="tab-contents">
+                <p class="contents-text"></p>
+                <p class="contents-period">March 2011 - September 2011</p>
+                <p class="contents-title"><span>Assistant Statistical Officer</span> - Statistics South Africa, Pretoria</p>
+                <p class="contents-text"></p>
+                <p class="contents-period">January 2012 - September 2014</p>
+                <p class="contents-title"><span>Statistical Analyst</span> - Statistics South Africa, Pretoria</p>
+                <p class="contents-text"></p>
+                <p class="contents-period">October 2016 - December 2017</p>
+                <p class="contents-title"><span>Survey Methodologist</span> - Statistics South Africa, Pretoria</p>
+                <p class="contents-text"></p>
+                <p class="contents-period">October 2016 - Present</p>
+                <p class="contents-title"><span>Retail Trader</span> - Self-employed</p>
+                <p class="contents-text"></p>
+            </div>
+    </div>    
+</div>
+
+<!-- --------------------------------------------------------Footer-------------------------------------------------------- -->
+
+<div id="footer">
+    <p class="footer-text">Solomon Stokie Legoale - Portfolio Website © 2023</p>
+</div>
+
+</body>
+</html>
